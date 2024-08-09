@@ -1,14 +1,20 @@
 **Integrantes**
+
 João Vinicius Farah Colombini - 159501
+
 Victor Jorge Carvalho Chaves - 156740
 
 **Introdução**
 São Paulo é a cidade mais populosa do Brasil, e com isso enfrenta múltiplos desafios em sua gestão de manutenção desde em infraestrutura e população.
+
 Com isso, ela criou o SP156 que tem como objetivos integrar, ampliar e melhorar continuamente o atendimento ao cidadão.
+
 E com vários anos de funcionamento, há a possibilidade que haja algum comportamento nas requisições pelos cidadões, e caso haja algo, poderia ser proposto boas práticas e alertas diante situações da cidade para prevenir inconveniências ao cidadão.
 
 **Objetivo**
+
 O objetivo do trabalho será criar múltiplas análises e detectar quais problemas da cidade poderiam ser previstos ou não.
+
 Verificar padrões e correlações entre os temas e regiões.
 
 **Metodologia**
