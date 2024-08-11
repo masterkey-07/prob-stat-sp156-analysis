@@ -3,10 +3,16 @@ import re
 import requests
 from threading import Thread
 
+ROOT_PATH = os.path.abspath("..")
+
+DATA_PATH = os.path.join(ROOT_PATH, 'data')
+
 def download_csv(file_name: str, url: str):
     response = requests.get(url)
-    os.makedirs('./data', exist_ok=True)
-    file_path = f'./data/{file_name}.csv'
+    os.makedirs(DATA_PATH, exist_ok=True)
+
+    file_path = os.path.join(DATA_PATH, f'{file_name}.csv')
+
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(response.text)
 
