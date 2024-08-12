@@ -1,0 +1,218 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage{indentfirst}
+\usepackage{abntex2cite}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{times}
+
+\title{Protocolo Experimental - Análise e Predição das Solicitações do SP156}
+\author{João Vinicius Farah Colombini 159501\\
+Victor Jorge Carvalho Chaves 156740}
+\date{11/08/2024}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{Domínio da Aplicação}
+
+\subsection{Descrição da Base de Dados}
+
+A base de dados são os relatórios de 2012 até 2024 das solicitações via o Portal de Atendimento da Prefeitura de São Paulo (SP156). Essas solicitações correspondem a reclamações, dúvidas e pedidos de ajuda referentes a uma variedade de assuntos da cidade, como violência, ruas desgastas, informações, etc.
+
+Contudo, não há a conclusão se o problema foi resolvido ou não pelos respectivos orgãos responsáveis.
+
+\subsubsection{Descrição das Solicitações de 2012 até 2014}
+
+Para as solicitações de 2012 até 2014, há os seguintes valores:
+\begin{enumerate}
+    \item Data de abertura
+    \item Bairro
+    \item Distrito
+    \item Órgão
+    \item Canal de atendimento
+    \item Assunto
+    \item Especificação do assunto
+    \item Status da solicitação
+    \item Data do parecer
+\end{enumerate}
+
+\subsubsection{Descrição das Solicitações de 2015 até 2024}
+
+Para as solicitações de 2015 até 2024, há os seguintes valores:
+\begin{enumerate}
+    \item Data de abertura
+    \item Canal
+    \item Tema
+    \item Assunto
+    \item Serviço
+    \item Logradouro
+    \item Numero
+    \item CEP
+    \item Setor
+    \item Quadra
+    \item Latitude
+    \item Longitude
+    \item Data do Parecer
+    \item Status da solicitação
+    \item Orgão
+    \item Data
+    \item Nível
+    \item Prazo Atendimento
+    \item Qualidade Atendimento
+    \item Atendeu Solicitação
+\end{enumerate}
+
+\subsection{Entendimento da Base de Dados}
+
+Com a necessidade do entendimento dos dados para o desenvolvimento do modelo, é proposto as seguintes atividades
+
+\begin{enumerate}
+    \item Listagem de todas as categorias
+    \item Correlação entre os dados
+    \item Correlação entre Problema X Região
+    \item Correlação entre Problema X Mês
+    \item Correlação entre Problema X Ano
+    \item Verificar o crescimento/decrescimento de cada problema por Ano e Bairro
+    \item Visualizar as frequências de ocorrências de cada categoria
+\end{enumerate}
+
+\section{Pré-Processamento}
+
+Na base de dados, há múltiplos desafios a se resolver, valores nulos, múltiplos formatos de dado (texto, data, ruas, categorias). Esses desafios devem ser tratados para ser possível o desenvolvimento do modelo.
+
+\subsection{Tratamento dos Dados Faltantes}
+Com o tratamento de valores faltantes, será análisado o melhor conjunto de técnicas a se aplicar, como:
+
+\begin{enumerate}
+    \item Remover coluna.
+    \item Preencher o valor nulo pela média.
+    \item Preencher o valor nulo com um modelo semi-supervisionado.
+    \item Preencher o valor a partir de outro dado.
+\end{enumerate}
+
+\subsection{Transformação e Criação dos Dados}
+
+Com os múltiplos formatos de dados, é necessário o tratamento deles para melhor treinamento do modelo, aplicar transformações como:
+
+\begin{enumerate}
+    \item Extrair mais informações das datas (quantidade de dias, mês, ano, etc.)
+    \item Converter valores de texto para numeros.
+    \item Extrair informações dos Endereços e Localização (Bairro, Região).
+\end{enumerate}
+
+\subsection{Seleção das Colunas para o Treinamento}:
+
+A partir da verificação de correlação entre as váriáveis, será análisado e decidido qual os melhores dados para serem usados no treinamento.
+
+A partir dos resultados, será possível tomar as seguintes ações:
+\begin{enumerate}
+    \item Apagar as colunas com menor correlação.
+    \item Criar dados a partir da correlação entre duas colunas.
+\end{enumerate}
+
+
+
+\section{Reconhecimento de Padrões}
+\subsection{Objetivos}
+O objetivo principal é o reconhecimento e previsão dos problemas da cidade de São Paulo.
+
+Tendo em foco uma categorização mais objetiva de cada solicitação, como também a capacidade de previsão da origem e momento do problema.
+
+\subsection{Algoritmos}
+
+Nessa sessão será apresentado os algoritmos a serem testados e validados, cocm o intuito de encontrar o melhor para resolver os objetivos apresentados com acurácia e eficiência.
+
+\subsubsection{Classificação}
+\begin{itemize}
+    \item Árvore de decisão para classificação
+    \item Boosted trees para classificação
+\end{itemize}
+
+\subsubsection{Regressão}
+\begin{itemize}
+    \item Árvore de decisão para regressão
+    \item Boosted Trees para regressão
+    \item Regressão linear
+    \item Random Forests
+\end{itemize}
+
+\subsubsection{Clusterização}
+\begin{itemize}
+    \item K-means
+\end{itemize}
+\subsection{Bibliotecas utilizadas}
+
+\begin{enumerate}
+    \item Análise e Processamento de Dados: Numpy, Pandas
+    \item Bibliotecas de ML: Scikit-Learn, Pytorch, XGBoost
+    \item Visualização: Matplotlib, Plotly
+\end{enumerate}
+
+\subsection{Metodos de validação}
+
+Nessa sessão, será apresentada métodos de validação para validar a eficiência e acurácia dos modelos, em comparação a outros.
+
+\subsubsection{Classificação}
+\begin{itemize}
+    \item Validação Cruzada
+    \item Acurácia, precisão, recall, F1-Score
+    \item Matriz de confusão
+\end{itemize}
+\subsubsection{Regressão}
+\begin{itemize}
+    \item Validação Cruzada
+    \item MSE, RMSE, MAE, MAPE
+\end{itemize}
+\subsubsection{Clusterização}
+\begin{itemize}
+    \item Inertia e Silhouette Score
+\end{itemize}
+
+\section{Pós-Processamento}
+
+Nessa sessão, será apresentado análise para demonstrar o padrão de comportamento por região, e alguns exemplos de predições.
+
+\subsection{Análise dos Resultados}
+
+A partir dos resultados dos modelos escolhidos, o objetivo é apresentar medidas de segurança e prevenção da cidade de São Paulo com base em predições e análises para cada região.
+
+\subsection{Visualização das Informações}
+
+\subsubsection{Entendimento dos Dados}
+
+Utilizando uma série de métodos de visualização dos dados como gráficos de barra, box plot, mapa de temperatura, mapas, dentre outros. Com o objetivo de melhorar a interpretação e o domínio sobre os dados e sua natureza.
+
+\subsubsection{Resultados dos Modelos}
+
+Dependendo dos modelos escolhidos, apresentar os seus resultados de maneira que seja clara a sua validação em comparação a outros modelos.
+
+Para cada tipo de modelo, será aplicado diferentes métodos de visualização para identificar e entender os melhores modelos e seus comportamentos durante os treinos.
+
+\paragraph{Classificação}
+\begin{itemize}
+    \item Matriz de confusão (fica na forma de tabela)
+    \item Curva de Precisão-Recall
+    \item Grafico de dispersão
+\end{itemize}
+
+\paragraph{Regressão}
+\begin{itemize}
+    \item Curva de aprendizado
+    \item Gráfico de dispersão com linha de regressão
+\end{itemize}
+
+\paragraph{Clusterização}
+\begin{itemize}
+    \item Mapa de calor
+    \item Gráfico de Silhouette
+    \item Gráfico de dispersão
+\end{itemize}
+\end{document}
