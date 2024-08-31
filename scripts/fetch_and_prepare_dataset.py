@@ -116,10 +116,12 @@ def separate_all_data_to_themes():
     header = next(all_data_csv)
 
     theme_index = header.index('tema')
-
+    print(theme_index)
     file_map = dict()
 
     for row in tqdm(all_data_csv, desc="Separating rows to multiple files"):
+        print(row, theme_index)
+        
         theme = row[theme_index].replace('/', '').replace('\\', '')
 
         if not file_map.get(theme):
@@ -129,6 +131,7 @@ def separate_all_data_to_themes():
             file_map[theme].writerow(header)
 
         file_map[theme].writerow(row)
+
 
 if __name__ == "__main__":
     download_csvs_from_sp156()

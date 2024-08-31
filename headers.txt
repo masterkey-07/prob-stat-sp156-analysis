@@ -1,0 +1,92 @@
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;subprefeitura;distrito;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_1.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;subprefeitura;distrito;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_10.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_11.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_12.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_13.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_14.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_15.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_16.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_17.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_18.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_19.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;subprefeitura;distrito;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_2.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_20.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_21.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_22.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_23.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_24.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_25.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_26.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_27.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_28.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_29.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;subprefeitura;distrito;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_3.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_30.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_31.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_32.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_33.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_34.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_35.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_36.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_37.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_38.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_39.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;subprefeitura;distrito;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_4.csv
+data de abertura;canal;tema;assunto;servico;id solicitacao;logradouro;numero;cep;setor;quadra;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_40.csv
+data de abertura, canal de atendimento, assunto, especificaa§a£o do assunto, bairro, arga£o, status da solicitaa§a£o, data do parecer
+data/raw\file_41.csv
+data de abertura, canal de atendimento, assunto, especificaa§a£o do assunto, bairro, arga£o, status da solicitaa§a£o, data do parecer
+data/raw\file_42.csv
+data de abertura, canal de atendimento, assunto, especificaa§a£o do assunto, bairro, arga£o, status da solicitaa§a£o, data do parecer
+data/raw\file_43.csv
+data de abertura, canal de atendimento, assunto, especificaa§a£o do assunto, bairro, arga£o, status da solicitaa§a£o, data do parecer
+data/raw\file_44.csv
+data de abertura, bairro, distrito, arga£o, canal de atendimento, assunto, especificaa§a£o do assunto, status da solicitaa§a£o, data do parecer
+data/raw\file_45.csv
+data de abertura, bairro, distrito, arga£o, canal de atendimento, assunto, especificaa§a£o do assunto, status da solicitaa§a£o, data do parecer
+data/raw\file_46.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;subprefeitura;distrito;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_5.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;subprefeitura;distrito;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_6.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;subprefeitura;distrito;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_7.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;subprefeitura;distrito;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_8.csv
+data de abertura;canal;tema;assunto;servico;logradouro;numero;cep;subprefeitura;distrito;latitude;longitude;data do parecer;status da solicitacao;orgao;data;nivel;prazo atendimento;qualidade atendimento;atendeu solicitacao
+data/raw\file_9.csv
