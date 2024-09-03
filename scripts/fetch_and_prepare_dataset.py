@@ -31,6 +31,7 @@ COLUMNS_TO_KEEP = [
 "numero",
 ]
 
+
 makedirs(DATA_PATH, exist_ok=True)
 makedirs(RAW_DATA_PATH, exist_ok=True)
 makedirs(FINAL_DATA_PATH, exist_ok=True)
